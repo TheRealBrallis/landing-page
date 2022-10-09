@@ -42,12 +42,7 @@ const SectionWrapper = ({
           >
             {description}
           </p>
-          {showBtn && (
-            <Button
-              assetUrl={assets.expo}
-              link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
-            />
-          )}
+          {showBtn && <Button assetUrl={assets.expo} link="#" />}
         </div>
         <div className={`flex-1 ${styles.flexCenter}p-8 sm:px-0`}>
           <img
